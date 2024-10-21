@@ -1,0 +1,18 @@
+Exam Statistics
+
+Total number of (given) scores: 91
+Total number of valid scores: 91
+
+Considering only the given valid scores:
+Average score (of valid scores): 67.85
+Population standard deviation of the valid scores: 22.47
+
+# of A, 85-100: 	11 		12.09%
+# of B, 75--84: 	22 		24.18%
+# of C, 65--74: 	28 		30.77%
+# of D, 50--64: 	14 		15.38%
+# of F, 00--49: 	16 		17.58%
+
+Minimum score: 0
+Maximum score: 100
+
