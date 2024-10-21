@@ -41,13 +41,13 @@
          inputFileName = validateFileName(consoleReader, inputFileName).nextLine();
  
          // open the file again (with the correct inputFileName) for data reading
-         fileReader = new Scanner(new File(inputFileName));
- 
+         fileReader = new Scanner(new File(inputFileName).getAbsolutePath());
+
          firstPass(fileReader, inputFileName, nextScore, totalScores, validScores, maxScore, minScore, aGrade, bGrade, cGrade, dGrade, fGrade, sum, average);
- 
+
          // close and re-open fileReader in order to execute the second pass
          fileReader.close();
-         fileReader = new Scanner(new File(inputFileName));
+         fileReader = new Scanner(new File(inputFileName).getAbsolutePath());
  
          secondPass(fileReader, validScores, maxScore, nextScore, psd);
  
