@@ -1,6 +1,6 @@
 Exam Statistics
 
-Total number of (given) scores: 91
+Total number of (given) scores: 101
 Total number of valid scores: 91
 
 Considering only the given valid scores:
